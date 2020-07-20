@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C08D7724C60D1B0055E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08D7624C60D1B0055E8FD /* AppDelegate.swift */; };
+		B9C08D7924C60D1B0055E8FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08D7824C60D1B0055E8FD /* SceneDelegate.swift */; };
+		B9C08D7B24C60D1B0055E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08D7A24C60D1B0055E8FD /* ViewController.swift */; };
+		B9C08D7E24C60D1B0055E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C08D7C24C60D1B0055E8FD /* Main.storyboard */; };
+		B9C08D8024C60D1C0055E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C08D7F24C60D1C0055E8FD /* Assets.xcassets */; };
+		B9C08D8324C60D1C0055E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C08D8124C60D1C0055E8FD /* LaunchScreen.storyboard */; };
+		B9C08D8E24C60D1D0055E8FD /* NeumorphismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08D8D24C60D1D0055E8FD /* NeumorphismTests.swift */; };
+		B9C08D9924C60D1D0055E8FD /* NeumorphismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08D9824C60D1D0055E8FD /* NeumorphismUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C08D8A24C60D1D0055E8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C08D6B24C60D1A0055E8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C08D7224C60D1A0055E8FD;
+			remoteInfo = Neumorphism;
+		};
+		B9C08D9524C60D1D0055E8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C08D6B24C60D1A0055E8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C08D7224C60D1A0055E8FD;
+			remoteInfo = Neumorphism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9C08D7324C60D1A0055E8FD /* Neumorphism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neumorphism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C08D7624C60D1B0055E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9C08D7824C60D1B0055E8FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9C08D7A24C60D1B0055E8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9C08D7D24C60D1B0055E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C08D7F24C60D1C0055E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C08D8224C60D1C0055E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9C08D8424C60D1C0055E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C08D8924C60D1D0055E8FD /* NeumorphismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C08D8D24C60D1D0055E8FD /* NeumorphismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTests.swift; sourceTree = "<group>"; };
+		B9C08D8F24C60D1D0055E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C08D9424C60D1D0055E8FD /* NeumorphismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C08D9824C60D1D0055E8FD /* NeumorphismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismUITests.swift; sourceTree = "<group>"; };
+		B9C08D9A24C60D1D0055E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C08D7024C60D1A0055E8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D8624C60D1D0055E8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D9124C60D1D0055E8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C08D6A24C60D1A0055E8FD = {
+			isa = PBXGroup;
+			children = (
+				B9C08D7524C60D1B0055E8FD /* Neumorphism */,
+				B9C08D8C24C60D1D0055E8FD /* NeumorphismTests */,
+				B9C08D9724C60D1D0055E8FD /* NeumorphismUITests */,
+				B9C08D7424C60D1A0055E8FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C08D7424C60D1A0055E8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08D7324C60D1A0055E8FD /* Neumorphism.app */,
+				B9C08D8924C60D1D0055E8FD /* NeumorphismTests.xctest */,
+				B9C08D9424C60D1D0055E8FD /* NeumorphismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C08D7524C60D1B0055E8FD /* Neumorphism */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08D7624C60D1B0055E8FD /* AppDelegate.swift */,
+				B9C08D7824C60D1B0055E8FD /* SceneDelegate.swift */,
+				B9C08D7A24C60D1B0055E8FD /* ViewController.swift */,
+				B9C08D7C24C60D1B0055E8FD /* Main.storyboard */,
+				B9C08D7F24C60D1C0055E8FD /* Assets.xcassets */,
+				B9C08D8124C60D1C0055E8FD /* LaunchScreen.storyboard */,
+				B9C08D8424C60D1C0055E8FD /* Info.plist */,
+			);
+			path = Neumorphism;
+			sourceTree = "<group>";
+		};
+		B9C08D8C24C60D1D0055E8FD /* NeumorphismTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08D8D24C60D1D0055E8FD /* NeumorphismTests.swift */,
+				B9C08D8F24C60D1D0055E8FD /* Info.plist */,
+			);
+			path = NeumorphismTests;
+			sourceTree = "<group>";
+		};
+		B9C08D9724C60D1D0055E8FD /* NeumorphismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08D9824C60D1D0055E8FD /* NeumorphismUITests.swift */,
+				B9C08D9A24C60D1D0055E8FD /* Info.plist */,
+			);
+			path = NeumorphismUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C08D7224C60D1A0055E8FD /* Neumorphism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C08D9D24C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "Neumorphism" */;
+			buildPhases = (
+				B9C08D6F24C60D1A0055E8FD /* Sources */,
+				B9C08D7024C60D1A0055E8FD /* Frameworks */,
+				B9C08D7124C60D1A0055E8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neumorphism;
+			productName = Neumorphism;
+			productReference = B9C08D7324C60D1A0055E8FD /* Neumorphism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C08D8824C60D1D0055E8FD /* NeumorphismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C08DA024C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "NeumorphismTests" */;
+			buildPhases = (
+				B9C08D8524C60D1D0055E8FD /* Sources */,
+				B9C08D8624C60D1D0055E8FD /* Frameworks */,
+				B9C08D8724C60D1D0055E8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C08D8B24C60D1D0055E8FD /* PBXTargetDependency */,
+			);
+			name = NeumorphismTests;
+			productName = NeumorphismTests;
+			productReference = B9C08D8924C60D1D0055E8FD /* NeumorphismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9C08D9324C60D1D0055E8FD /* NeumorphismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C08DA324C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "NeumorphismUITests" */;
+			buildPhases = (
+				B9C08D9024C60D1D0055E8FD /* Sources */,
+				B9C08D9124C60D1D0055E8FD /* Frameworks */,
+				B9C08D9224C60D1D0055E8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C08D9624C60D1D0055E8FD /* PBXTargetDependency */,
+			);
+			name = NeumorphismUITests;
+			productName = NeumorphismUITests;
+			productReference = B9C08D9424C60D1D0055E8FD /* NeumorphismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C08D6B24C60D1A0055E8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Akshansh Thakur";
+				TargetAttributes = {
+					B9C08D7224C60D1A0055E8FD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B9C08D8824C60D1D0055E8FD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B9C08D7224C60D1A0055E8FD;
+					};
+					B9C08D9324C60D1D0055E8FD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B9C08D7224C60D1A0055E8FD;
+					};
+				};
+			};
+			buildConfigurationList = B9C08D6E24C60D1A0055E8FD /* Build configuration list for PBXProject "Neumorphism" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C08D6A24C60D1A0055E8FD;
+			productRefGroup = B9C08D7424C60D1A0055E8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C08D7224C60D1A0055E8FD /* Neumorphism */,
+				B9C08D8824C60D1D0055E8FD /* NeumorphismTests */,
+				B9C08D9324C60D1D0055E8FD /* NeumorphismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C08D7124C60D1A0055E8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C08D8324C60D1C0055E8FD /* LaunchScreen.storyboard in Resources */,
+				B9C08D8024C60D1C0055E8FD /* Assets.xcassets in Resources */,
+				B9C08D7E24C60D1B0055E8FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D8724C60D1D0055E8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D9224C60D1D0055E8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C08D6F24C60D1A0055E8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C08D7B24C60D1B0055E8FD /* ViewController.swift in Sources */,
+				B9C08D7724C60D1B0055E8FD /* AppDelegate.swift in Sources */,
+				B9C08D7924C60D1B0055E8FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D8524C60D1D0055E8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C08D8E24C60D1D0055E8FD /* NeumorphismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C08D9024C60D1D0055E8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C08D9924C60D1D0055E8FD /* NeumorphismUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9C08D8B24C60D1D0055E8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C08D7224C60D1A0055E8FD /* Neumorphism */;
+			targetProxy = B9C08D8A24C60D1D0055E8FD /* PBXContainerItemProxy */;
+		};
+		B9C08D9624C60D1D0055E8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C08D7224C60D1A0055E8FD /* Neumorphism */;
+			targetProxy = B9C08D9524C60D1D0055E8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9C08D7C24C60D1B0055E8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C08D7D24C60D1B0055E8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9C08D8124C60D1C0055E8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C08D8224C60D1C0055E8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C08D9B24C60D1D0055E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9C08D9C24C60D1D0055E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C08D9E24C60D1D0055E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = Neumorphism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.Neumorphism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9C08D9F24C60D1D0055E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = Neumorphism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.Neumorphism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9C08DA124C60D1D0055E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = NeumorphismTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.NeumorphismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorphism.app/Neumorphism";
+			};
+			name = Debug;
+		};
+		B9C08DA224C60D1D0055E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = NeumorphismTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.NeumorphismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorphism.app/Neumorphism";
+			};
+			name = Release;
+		};
+		B9C08DA424C60D1D0055E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = NeumorphismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.NeumorphismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neumorphism;
+			};
+			name = Debug;
+		};
+		B9C08DA524C60D1D0055E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZYQ4HKGUN;
+				INFOPLIST_FILE = NeumorphismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshThakur.NeumorphismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neumorphism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C08D6E24C60D1A0055E8FD /* Build configuration list for PBXProject "Neumorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C08D9B24C60D1D0055E8FD /* Debug */,
+				B9C08D9C24C60D1D0055E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C08D9D24C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "Neumorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C08D9E24C60D1D0055E8FD /* Debug */,
+				B9C08D9F24C60D1D0055E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C08DA024C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "NeumorphismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C08DA124C60D1D0055E8FD /* Debug */,
+				B9C08DA224C60D1D0055E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C08DA324C60D1D0055E8FD /* Build configuration list for PBXNativeTarget "NeumorphismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C08DA424C60D1D0055E8FD /* Debug */,
+				B9C08DA524C60D1D0055E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C08D6B24C60D1A0055E8FD /* Project object */;
+}
